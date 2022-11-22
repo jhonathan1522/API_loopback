@@ -26,7 +26,7 @@ export class Cliente extends Persona {
     type: 'string',
     required: true,
   })
-  Username: string;
+  Usuario: string;
 
   @property({
     type: 'string',
