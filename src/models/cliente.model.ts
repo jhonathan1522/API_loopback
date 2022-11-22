@@ -14,25 +14,25 @@ export class Cliente extends Persona {
     type: 'string',
     required: true,
   })
-  telefono: string;
+  Telefono: string;
 
   @property({
     type: 'string',
     required: true,
   })
-  email: string;
+  Email: string;
 
   @property({
     type: 'string',
     required: true,
   })
-  username: string;
+  Username: string;
 
   @property({
     type: 'string',
     required: false,
   })
-  clave: string;
+  Clave: string;
 
   // Define well-known properties here
 

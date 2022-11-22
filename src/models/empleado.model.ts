@@ -1,6 +1,6 @@
-import {Entity, model, property, belongsTo} from '@loopback/repository';
-import { Persona } from './persona.model';
+import {belongsTo, model, property} from '@loopback/repository';
 import {Empresa} from './empresa.model';
+import {Persona} from './persona.model';
 
 @model({settings: {strict: false}})
 export class Empleado extends Persona {
