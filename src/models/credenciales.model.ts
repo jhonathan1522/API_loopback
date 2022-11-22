@@ -6,13 +6,13 @@ export class Credenciales extends Model {
     type: 'string',
     required: true,
   })
-  usuario: string;
+  Usuario: string;
 
   @property({
     type: 'string',
     required: true,
   })
-  clave: string;
+  Clave: string;
 
   // Define well-known properties here
 

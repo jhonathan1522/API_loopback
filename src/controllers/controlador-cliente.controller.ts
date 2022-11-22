@@ -75,8 +75,8 @@ export class ControladorClienteController {
     credenciales: Credenciales,
   ) {
     const p = await this.autenticacionService.identificarPersona(
-      credenciales.usuario,
-      credenciales.clave,
+      credenciales.Usuario,
+      credenciales.Clave,
     );
 
     if (p) {

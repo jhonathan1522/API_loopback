@@ -29,8 +29,10 @@ export class AutenticacionService {
 
   identificarPersona = (usuario: string, clave: string) => {
     try {
+      console.log(usuario);
+      console.log(clave);
       const p = this.clienteRepository.findOne({
-        where: {username: usuario, clave: clave},
+        where: {Usuario: usuario, Clave: clave},
       });
       if (p) {
         return p;
