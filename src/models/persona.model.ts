@@ -17,7 +17,7 @@ export class Persona extends Entity {
 
   @property({
     type: 'date',
-    required: true,
+    required: false,
   })
   Fecha_nacimiento: string;
 

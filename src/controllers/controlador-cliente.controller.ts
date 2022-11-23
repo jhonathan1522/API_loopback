@@ -60,9 +60,9 @@ export class ControladorClienteController {
       passwordGenerate,
       'jhonathan.rodriguez1522@gmail.com',
     ); */
-    const claveCifrada = this.autenticacionService.cifrarClave(cliente.clave);
+    const claveCifrada = this.autenticacionService.cifrarClave(cliente.Clave);
     //this.autenticacionService.cifrarClave(passwordGenerate);
-    cliente.clave = claveCifrada;
+    cliente.Clave = claveCifrada;
     return this.clienteRepository.create(cliente);
   }
 
